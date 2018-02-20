@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Adoramos café, ou não.
         // Teste Conflito
         self.mostrarOla()
+        // teste
     }
     
     func mostrarOla() {
