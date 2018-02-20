@@ -9,9 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Adoramos café, ou não.
         // Teste Conflito
         self.mostrarOla()
     }
@@ -19,7 +20,7 @@ class ViewController: UIViewController {
     func mostrarOla() {
         print("Olá")
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
